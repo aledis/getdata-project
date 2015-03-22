@@ -42,70 +42,71 @@ Average of means and standard deviations was taken by subject and activity
 
 The complete list of variables:
 
-"Avg.tBodyAcc.Mean.X"
-"Avg.tBodyAcc.Mean.Y"
-"Avg.tBodyAcc.Mean.Z"
-"Avg.tBodyAcc.Stdev.X"
-"Avg.tBodyAcc.Stdev.Y"
-"Avg.tBodyAcc.Stdev.Z"
-"Avg.tGravityAcc.Mean.X"
-"Avg.tGravityAcc.Mean.Y"
-"Avg.tGravityAcc.Mean.Z"
-"Avg.tGravityAcc.Stdev.X"
-"Avg.tGravityAcc.Stdev.Y"
-"Avg.tGravityAcc.Stdev.Z"
-"Avg.tBodyAccJerk.Mean.X"
-"Avg.tBodyAccJerk.Mean.Y"
-"Avg.tBodyAccJerk.Mean.Z"
-"Avg.tBodyAccJerk.Stdev.X"
-"Avg.tBodyAccJerk.Stdev.Y"
-"Avg.tBodyAccJerk.Stdev.Z"
-"Avg.tBodyGyro.Mean.X"
-"Avg.tBodyGyro.Mean.Y"
-"Avg.tBodyGyro.Mean.Z"
-"Avg.tBodyGyro.Stdev.X"
-"Avg.tBodyGyro.Stdev.Y"
-"Avg.tBodyGyro.Stdev.Z"
-"Avg.tBodyGyroJerk.Mean.X"
-"Avg.tBodyGyroJerk.Mean.Y"
-"Avg.tBodyGyroJerk.Mean.Z"
-"Avg.tBodyGyroJerk.Stdev.X"
-"Avg.tBodyGyroJerk.Stdev.Y"
-"Avg.tBodyGyroJerk.Stdev.Z"
-"Avg.tBodyAccMag.Mean"
-"Avg.tBodyAccMag.Stdev"
-"Avg.tGravityAccMag.Mean"
-"Avg.tGravityAccMag.Stdev"
-"Avg.tBodyAccJerkMag.Mean"
-"Avg.tBodyAccJerkMag.Stdev"
-"Avg.tBodyGyroMag.Mean"
-"Avg.tBodyGyroMag.Stdev"
-"Avg.tBodyGyroJerkMag.Mean"
-"Avg.tBodyGyroJerkMag.Stdev"
-"Avg.fBodyAcc.Mean.X"
-"Avg.fBodyAcc.Mean.Y"
-"Avg.fBodyAcc.Mean.Z"
-"Avg.fBodyAcc.Stdev.X"
-"Avg.fBodyAcc.Stdev.Y"
-"Avg.fBodyAcc.Stdev.Z"
-"Avg.fBodyAccJerk.Mean.X"
-"Avg.fBodyAccJerk.Mean.Y"
-"Avg.fBodyAccJerk.Mean.Z"
-"Avg.fBodyAccJerk.Stdev.X"
-"Avg.fBodyAccJerk.Stdev.Y"
-"Avg.fBodyAccJerk.Stdev.Z"
-"Avg.fBodyGyro.Mean.X"
-"Avg.fBodyGyro.Mean.Y"
-"Avg.fBodyGyro.Mean.Z"
-"Avg.fBodyGyro.Stdev.X"
-"Avg.fBodyGyro.Stdev.Y"
-"Avg.fBodyGyro.Stdev.Z"
-"Avg.fBodyAccMag.Mean"
-"Avg.fBodyAccMag.Stdev"
-"Avg.fBodyBodyAccJerkMag.Mean"
-"Avg.fBodyBodyAccJerkMag.Stdev"
-"Avg.fBodyBodyGyroMag.Mean"
-"Avg.fBodyBodyGyroMag.Stdev"
-"Avg.fBodyBodyGyroJerkMag.Mean"
-"Avg.fBodyBodyGyroJerkMag.Stdev"
+- Avg.tBodyAcc.Mean.X
+- Avg.tBodyAcc.Mean.Y
+- Avg.tBodyAcc.Mean.Z
+- Avg.tBodyAcc.Stdev.X
+- Avg.tBodyAcc.Stdev.Y
+- Avg.tBodyAcc.Stdev.Z
+- Avg.tGravityAcc.Mean.X
+- Avg.tGravityAcc.Mean.Y
+- Avg.tGravityAcc.Mean.Z
+- Avg.tGravityAcc.Stdev.X
+- Avg.tGravityAcc.Stdev.Y
+- Avg.tGravityAcc.Stdev.Z
+- Avg.tBodyAccJerk.Mean.X
+- Avg.tBodyAccJerk.Mean.Y
+- Avg.tBodyAccJerk.Mean.Z
+- Avg.tBodyAccJerk.Stdev.X
+- Avg.tBodyAccJerk.Stdev.Y
+- Avg.tBodyAccJerk.Stdev.Z
+- Avg.tBodyGyro.Mean.X
+- Avg.tBodyGyro.Mean.Y
+- Avg.tBodyGyro.Mean.Z
+- Avg.tBodyGyro.Stdev.X
+- Avg.tBodyGyro.Stdev.Y
+- Avg.tBodyGyro.Stdev.Z
+- Avg.tBodyGyroJerk.Mean.X
+- Avg.tBodyGyroJerk.Mean.Y
+- Avg.tBodyGyroJerk.Mean.Z
+- Avg.tBodyGyroJerk.Stdev.X
+- Avg.tBodyGyroJerk.Stdev.Y
+- Avg.tBodyGyroJerk.Stdev.Z
+- Avg.tBodyAccMag.Mean
+- Avg.tBodyAccMag.Stdev
+- Avg.tGravityAccMag.Mean
+- Avg.tGravityAccMag.Stdev
+- Avg.tBodyAccJerkMag.Mean
+- Avg.tBodyAccJerkMag.Stdev
+- Avg.tBodyGyroMag.Mean
+- Avg.tBodyGyroMag.Stdev
+- Avg.tBodyGyroJerkMag.Mean
+- Avg.tBodyGyroJerkMag.Stdev
+- Avg.fBodyAcc.Mean.X
+- Avg.fBodyAcc.Mean.Y
+- Avg.fBodyAcc.Mean.Z
+- Avg.fBodyAcc.Stdev.X
+- Avg.fBodyAcc.Stdev.Y
+- Avg.fBodyAcc.Stdev.Z
+- Avg.fBodyAccJerk.Mean.X
+- Avg.fBodyAccJerk.Mean.Y
+- Avg.fBodyAccJerk.Mean.Z
+- Avg.fBodyAccJerk.Stdev.X
+- Avg.fBodyAccJerk.Stdev.Y
+- Avg.fBodyAccJerk.Stdev.Z
+- Avg.fBodyGyro.Mean.X
+- Avg.fBodyGyro.Mean.Y
+- Avg.fBodyGyro.Mean.Z
+- Avg.fBodyGyro.Stdev.X
+- Avg.fBodyGyro.Stdev.Y
+- Avg.fBodyGyro.Stdev.Z
+- Avg.fBodyAccMag.Mean
+- Avg.fBodyAccMag.Stdev
+- Avg.fBodyBodyAccJerkMag.Mean
+- Avg.fBodyBodyAccJerkMag.Stdev
+- Avg.fBodyBodyGyroMag.Mean
+- Avg.fBodyBodyGyroMag.Stdev
+- Avg.fBodyBodyGyroJerkMag.Mean
+- Avg.fBodyBodyGyroJerkMag.Stdev
+
 
