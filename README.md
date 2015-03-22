@@ -1,9 +1,10 @@
 As a first step, we read the names of the features and names of the activities.
 
-Next, using grepl function we select all the features that start with t and contain mean() and std().
-The reason for choosing feature names starting with t is to get time measurements and exclude Fourier
+Next, using grepl function we select all the features that contain mean() and std().
+We include in the data both time measurements and Fourier
 Transforms. We escape ( in regular expression for mean and std to make sure we get mean and std followed
-by open parenthesis. This allows us to exclude names containing for example meanFreq()
+by open parenthesis. This allows us to exclude names containing for example meanFreq(). All the names are
+prepended with "Avg." to indicate that the data contains averages of means and stdevs.
 
 Selected feature names are further renamed to substitute mean() with Mean, std() with Stdev and - with period
 in order to standardize the names of the measurements.
