@@ -35,8 +35,8 @@ These signals were used to estimate variables of the feature vector for each pat
 
 The set of variables that were estimated from these signals are: 
 
-mean(): Mean value - denoted by .Mean in the features names
-std(): Standard deviation - denoted by .Stdev in the features names
+- mean(): Mean value - denoted by .Mean in the features names
+- std(): Standard deviation - denoted by .Stdev in the features names
 
 Average of means and standard deviations was taken by subject and activity
 
