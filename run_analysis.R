@@ -8,7 +8,7 @@ stdAndMean<-which(grepl("-mean\\()", names) | grepl("-std\\()", names))
 stdAndMeanNames<-names[stdAndMean]
 
 # normalize naming of measurements
-strAndMeanNames<-sub("^(.*)$","Avg.\\1", sub("-",".",sub("-std\\()",".Stdev",sub("-mean\\()", ".Mean", stdAndMeanNames))))
+stdAndMeanNames<-sub("^(.*)$","Avg.\\1", sub("-",".",sub("-std\\()",".Stdev",sub("-mean\\()", ".Mean", stdAndMeanNames))))
 
 # read the data
 xVector<-c(scan("UCI HAR Dataset/train/X_train.txt"), scan("UCI HAR Dataset/test/X_test.txt"))
