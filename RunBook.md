@@ -42,6 +42,8 @@ Average of means and standard deviations was taken by subject and activity
 
 The complete list of variables:
 
+- activity
+- subject
 - Avg.tBodyAcc.Mean.X
 - Avg.tBodyAcc.Mean.Y
 - Avg.tBodyAcc.Mean.Z
