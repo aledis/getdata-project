@@ -11,12 +11,13 @@ stdAndMeanNames<-names[stdAndMean]
 stdAndMeanNames<-sub("^(.*)$","Avg.\\1", sub("-",".",sub("-std\\()",".Stdev",sub("-mean\\()", ".Mean", stdAndMeanNames))))
 
 # read the data
-xVector<-c(scan("UCI HAR Dataset/train/X_train.txt"), scan("UCI HAR Dataset/test/X_test.txt"))
+trainData<-read.table("UCI HAR Dataset/train/X_train.txt")
+testData<-read.table("UCI HAR Dataset/test/X_test.txt")
 yVector<-c(scan("UCI HAR Dataset/train/y_train.txt"), scan("UCI HAR Dataset/test/y_test.txt"))
 sVector<-c(scan("UCI HAR Dataset/train/subject_train.txt"), scan("UCI HAR Dataset/test/subject_test.txt"))
 
 # create data matrix, name the columns and 
-dataMatrix <- data.frame(matrix(xVector, ncol = 561))[,stdAndMean]
+dataMatrix <- rbind(testData, trainData)[,stdAndMean]
 colnames(dataMatrix)<-stdAndMeanNames
 
 # form the final data set by adding subjects and activities using activities names,
