@@ -4,12 +4,11 @@ activities<-read.csv("UCI HAR Dataset/activity_labels.txt", sep = " ", header = 
 
 # extract those with std and mean
 # we exclude ZZZ-meanFreq() as these have corresponding ZZZ-mean() measurements
-# we only include original time measurements, not the Fourier Transforms
-stdAndMean<-which(grepl("^t.*mean\\()", names) | grepl("^t.*std\\()", names))
+stdAndMean<-which(grepl("-mean\\()", names) | grepl("-std\\()", names))
 stdAndMeanNames<-names[stdAndMean]
 
 # normalize naming of measurements
-strAndMeanNames<-sub("-","",sub("-std\\()","Stdev",sub("-mean\\()", "Mean", stdAndMeanNames)))
+strAndMeanNames<-sub("^(.*)$","Avg.\\1", sub("-",".",sub("-std\\()",".Stdev",sub("-mean\\()", ".Mean", stdAndMeanNames))))
 
 # read the data
 xVector<-c(scan("UCI HAR Dataset/train/X_train.txt"), scan("UCI HAR Dataset/test/X_test.txt"))
